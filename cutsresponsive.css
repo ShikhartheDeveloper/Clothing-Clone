@@ -1,0 +1,232 @@
+@media screen and (min-width:320px) and (max-width:425px) {
+    .navbar {
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .menu {
+        display: block;
+    }
+    .left-nav {
+        display: none;
+    }
+    .right-nav p {
+        display: none;
+    }
+    .right-nav button {
+        padding: 7px 15px;
+    }
+    .fa-circle-user {
+        display: none;
+    }
+    .mid-nav img {
+        height: 35px;
+    }
+    .right-nav {
+        gap: 5px;
+    }
+
+    .first-section {
+        height: 70vh;
+    }
+    .fir-sec-item {
+        padding: 10px 20px;
+        text-align: center;
+    }
+    .fir-sec-item h1 {
+        font-size: 1.5rem;
+    }
+    .fir-sec-item p {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+    .item{
+        width: 100%;
+    }
+    .second-section h1 {
+        font-size: 1.5rem;
+    }
+    .image-section {
+        flex-wrap: wrap;
+    }
+    .third-section h1{
+        font-size: 1.5rem;
+    }
+    .hover-img{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .item-2{
+        background-position: center;
+        background-size: cover;
+        width: 45%;
+        height: 30vh;
+    }
+    .img img {
+        height: 30vh;
+        width: 100%;
+    }
+    .item-2 h2{
+        font-size: 15px;
+        text-align: center;
+        border: none;
+    }
+    .forth-section{
+        height: 60vh;
+    }
+    .f-i-1{
+        width: 100%;
+    }
+    .six-section h1{
+        width: 90%;
+        font-size: 1.5rem;
+    }
+    .seven-section{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .s-i-1{
+        height: 60vh;
+        width: 100%;
+    }
+    .right h2{
+        font-size: 20px;
+        text-align: right;
+    }
+    .s-btn button{
+        padding: 10px;
+        margin-right: 10px;
+    }
+    .eight-section{
+        padding: 20px 0px;
+    }
+    .eight-section h1{
+        font-size: 20px;
+        width: 90%;
+    }
+    .eight-i-s img{
+        height: 30px;
+    }
+    .img-hover{
+        width: 100%;
+        gap: 5px;
+    }
+    .img-hover img {
+        height: 30vh;
+        cursor: pointer;
+        width: 45vw;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:768px) {
+    .navbar {
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .menu {
+        display: block;
+    }
+    .menu i{
+        font-size: 30px;
+    }
+    .left-nav {
+        display: none;
+    }
+    .right-nav p {
+        display: none;
+    }
+    .right-nav button {
+        padding: 7px 15px;
+    }
+    .fa-circle-user {
+        display: none;
+    }
+    .mid-nav img {
+        height: 35px;
+    }
+    .right-nav {
+        gap: 10px;
+    }
+    .fir-sec-item h1{
+        text-align: center;
+    }
+    .item{
+        width: 40%;
+    }
+    .third-section{
+        height: 100%;
+    }
+    .hover-img{
+        flex-wrap: wrap;
+    }
+    .item-2 {
+        width: 40%;
+        gap: 5px;
+        height: 50vh;
+    }
+    .img img{
+        height: 45vh;
+        margin: 10px;
+    }
+    .s-i-1{
+        height: 60vh;
+    }
+    .seven-section{
+        height: 100%;
+        padding: 20px 0px;
+    }
+    .img-hover{
+        width: 100%;
+        gap: 5px;
+    }
+    .img-hover img {
+        height: 40vh;
+        cursor: pointer;
+        width: 45vw;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .first-section{
+        height: 70vh;
+    }
+    .image-section{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .item{
+        width: 40%;
+        gap: 10px;
+    }
+    .hover-img{
+        flex-wrap: wrap;
+    }
+    .third-section{
+        height: 100%;
+    }
+    .forth-section{
+        height: 70vh;
+    }
+    .item-2 {
+        width: 40%;
+        gap: 5px;
+        height: 50vh;
+    }
+    .s-i-1{
+        height: 60vh;
+    }
+    .seven-section{
+        height: 100%;
+        padding: 20px 0px;
+    }
+    .img-hover{
+        width: 100%;
+        gap: 5px;
+    }
+    .img-hover img {
+        height: 40vh;
+        cursor: pointer;
+        width: 45vw;
+    }
+}
